@@ -14,12 +14,12 @@ public class ListNode {
 	 * @return
 	 */
 	public static ListNode init() {
-		ListNode root = new ListNode(1);
+		ListNode root = new ListNode(8);
 		ListNode root1 = new ListNode(2);
-		ListNode root2 = new ListNode(3);
-		ListNode root3 = new ListNode(4);
+		ListNode root2 = new ListNode(4);
+		ListNode root3 = new ListNode(10);
 		ListNode root4 = new ListNode(5);
-		ListNode root5 = new ListNode(6);
+		ListNode root5 = new ListNode(1);
 //		ListNode root6 = new ListNode(7);
 		root.next = root1;
 		root.next = root1;
