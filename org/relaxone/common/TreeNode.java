@@ -18,8 +18,8 @@ public class TreeNode {
 	public static void printNode(TreeNode root) {
 		if(root == null)
 			return;
-		System.out.print(root.val + " ");
 		printNode(root.left);
+		System.out.print(root.val + " ");
 		printNode(root.right);
 	}
 	
