@@ -8,9 +8,10 @@ import java.util.Queue;
 import org.relaxone.common.UndirectedGraphNode;
 
 public class L18_CloneGraph {
-	
+
 	/**
 	 * a.非递归的方式实现图的遍历
+	 * 
 	 * @param node
 	 * @return
 	 */
@@ -47,9 +48,10 @@ public class L18_CloneGraph {
 		}
 		return cloneNode;
 	}
-	
+
 	/**
 	 * a. 递归的方式实现图的遍历
+	 * 
 	 * @param node
 	 * @param map
 	 * @return
