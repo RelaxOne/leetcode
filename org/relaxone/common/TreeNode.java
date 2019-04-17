@@ -29,13 +29,13 @@ public class TreeNode {
 	 */
 	public static TreeNode init() {
 		TreeNode root = new TreeNode(5);
-		TreeNode left1 = new TreeNode(6);
-		TreeNode right1 = new TreeNode(7);
-		TreeNode left_left = new TreeNode(8);
-		TreeNode left_2 = new TreeNode(9);
+		TreeNode left1 = new TreeNode(3);
+		TreeNode right1 = new TreeNode(9);
+		TreeNode left_left = new TreeNode(2);
+		TreeNode left_2 = new TreeNode(10);
 
-		TreeNode right_2 = new TreeNode(15);
-		TreeNode right_right = new TreeNode(10);
+		TreeNode right_2 = new TreeNode(8);
+		TreeNode right_right = new TreeNode(4);
 
 		root.left = left1;
 		root.right = right1;
